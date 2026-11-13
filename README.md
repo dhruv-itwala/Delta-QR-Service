@@ -4,6 +4,19 @@
 
 ---
 
+## 👨‍💻 Developer Credits
+
+Designed and developed by **DHRUV ITWALA**:
+
+- **Portfolio**: [dhruv-itwala-portfolio.onrender.com](https://dhruv-itwala-portfolio.onrender.com/)
+- **GitHub**: [github.com/Dhruv-Itwala](https://github.com/Dhruv-Itwala)
+- **LinkedIn**: [linkedin.com/in/dhruv-itwala](https://www.linkedin.com/in/dhruv-itwala/)
+- **Instagram**: [instagram.com/itwala_dhruv](https://www.instagram.com/itwala_dhruv)
+- **WhatsApp**: [Connect on WhatsApp](https://api.whatsapp.com/send/?phone=9104438800&text&type=phone_number&app_absent=0)
+- **YouTube**: [youtube.com/@dhruvitwala](https://youtube.com/@dhruvitwala?si=81XhgXpErB6sjjx5)
+
+---
+
 ## Key Features
 
 ### 1. Multi-Format QR Generator

@@ -4,6 +4,10 @@
   "version": "2.1.0",
   "type": "module",
   "description": "Detla Qr Service - Free opensource for you. Privacy-first, client-side QR studio.",
+  "author": {
+    "name": "DHRUV ITWALA",
+    "url": "https://dhruv-itwala-portfolio.onrender.com/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",

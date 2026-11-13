@@ -5,6 +5,7 @@ import InputForms from './components/InputForms';
 import Customizer from './components/Customizer';
 import PreviewCard from './components/PreviewCard';
 import ScannerModal from './components/ScannerModal';
+import Footer from './components/Footer';
 import Toast from './components/Toast';
 import { buildQrPayload } from './utils/qrUtils';
 
@@ -49,7 +50,7 @@ export default function App() {
   // Scanner modal state
   const [isScannerOpen, setIsScannerOpen] = useState(false);
 
-  // Mobile tab state to easily switch between "Editor" and "Preview" on small screens
+  // Mobile tab state
   const [mobileTab, setMobileTab] = useState('editor'); // 'editor' | 'preview'
 
   // Toast state
@@ -130,7 +131,7 @@ export default function App() {
           }}
         />
 
-        {/* Mobile View Switcher (Only visible on small viewports) */}
+        {/* Mobile View Switcher */}
         <div className="mobile-view-tabs" role="tablist">
           <button
             type="button"
@@ -222,12 +223,8 @@ export default function App() {
       {/* Floating Status Notification */}
       <Toast toast={toast} />
 
-      {/* App Footer */}
-      <footer className="app-footer">
-        <p>
-          <strong>Detla Qr Service</strong> &bull; Free opensource for you &bull; Zero tracking &bull; 100% Client-Side
-        </p>
-      </footer>
+      {/* App Footer with Developer Credits */}
+      <Footer />
     </>
   );
 }
